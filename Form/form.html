@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<div class="form-group">
+<form action="http://www.savatarian.com/html5/form.php" method="post">
+   <ul>
+       <li>
+           <h2>Burton Education</h2>
+       </li>
+       <li>
+           <label for="voornaam">Voornaam:</label>
+           <input id=voornaam type="text" name="voornaam">
+       </li>
+       <li>
+           <label for="tussenvoegsel">Tussenvoegsel:</label>
+           <input type="text" name="tussenvoegsel">
+       </li>
+       <li>
+           <label for="achternaam">Achternaam:</label>
+           <input id=achternaam type="text" name="achternaam">
+       </li>
+
+       <li>
+           <label for="fav_kleur">Favoriete kleur:</label>
+           <select name="fav_kleur">
+               <option>rood</option>
+               <option>geel</option>
+               <option>groen</option>
+               <option>blauw</option>
+               <option>paars</option>
+           </select>
+       </li>
+       <li>
+           <label for="geslacht">Geslacht:</label>
+           <input type="radio" name="geslacht" value="man">Man
+           <input type="radio" name="geslacht" value="vrouw">Vrouw
+       </li>
+       <li>
+           <label for="geslacht">Lekker eten:</label>
+           <input type="checkbox" name="eten" value="groente">Groente
+           <input type="checkbox" name="eten" value="snoep">Snoep
+           <input type="checkbox" name="eten" value="fruit">Fruit
+       </li>
+       <li>
+           <input type="submit" name="knop">
+       </li>
+   </ul>
+</form>
+</div>
+</body>
+</html>

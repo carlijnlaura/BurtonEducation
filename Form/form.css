@@ -1,0 +1,22 @@
+div.form-group {
+}
+
+form ul {
+    list-style-type: none;
+}
+
+form ul li {
+    padding: 10px;
+}
+
+input {
+    margin-left: 10px;
+}
+
+#voornaam {
+    margin-left: 37px;
+}
+
+#achternaam {
+    margin-left: 26px;
+}
